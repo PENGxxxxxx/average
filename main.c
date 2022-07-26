@@ -10,7 +10,8 @@ int main()
         scanf("%f", &score[i]);
     }
     aver = average(score);
-    printf("平均成绩是%f5.2\n", aver);
+    printf("更新后的平均成绩是%f5.2\n", aver);
+
     system("pause");
     return 0;
 }
